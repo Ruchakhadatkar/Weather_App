@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  border: 1px solid black;
+  background-color: #43affc;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Apps {
+  margin: 50px 0px;
+}
+.Box1 {
+  border: 1px solid rgb(24, 116, 235);
+  background-color: white;
+  width: 360px;
+  height: 220px;
+  border-radius: 13px;
+}
+.Box1 h1 {
+  color: #43affc;
+  margin: 8px 18px;
+  margin-bottom: 10px;
+}
+input {
+  margin: 22px 22px;
+  border: 1px solid #bfbfbf;
+  width: 87%;
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+button {
+  margin: 10px 25px;
+  border: 1px solid #bfbfbf;
+  width: 86%;
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #43affc;
+}
+.Box2 {
+  display: none;
+  border: 1px solid rgb(24, 116, 235);
+  background-color: white;
+  width: 360px;
+  height: 405px;
+  margin-top: 40px;
+  border-radius: 13px;
+}
+.appName {
+  color: #43affc;
+  margin: 8px 18px;
+  margin-bottom: 10px;
+}
+img {
+  width: 31%;
+  height: 26%;
+  margin: 18px 125px;
+  margin-bottom: 11px;
+}
+.temp {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(5, 3, 3, 0.871);
+}
+.broken {
+  text-align: center;
+  margin: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.cityName {
+  text-align: center;
+  font-size: 20px;
+  margin: 18px;
+}
+.cityName i {
+  padding-right: 4px;
+  font-size: 18px;
+}
+.line_hr {
+  margin: 26px 0px;
+  margin-bottom: 0px;
+}
+.end {
+  display: flex;
+  font-size: 14px;
+}
+.end h3 {
+  font-size: 19px;
+}
+.left {
+  display: flex;
+  margin: auto;
+  margin-top: 12px;
+}
+.end i {
+  font-size: 32px;
+  margin-top: 4px;
+  padding-right: 8px;
+  color: #43affc;
+}
+.right {
+  display: flex;
+  margin: auto;
+  margin-top: 12px;
+}
+.right i {
+  font-size: 28px;
+  margin: 7px 2px;
+}
+.partition {
+  height: 64px;
+}
+.error {
+  display: none;
+  margin: 0px 24px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 24px;
+  color: rgb(249, 18, 18);
+}
